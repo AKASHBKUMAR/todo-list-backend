@@ -9,7 +9,7 @@ app.use(express.json());
 
 // Connect to your MongoDB database (replace with your database URL)
 mongoose.connect(
-  "mongodb+srv://akashbkumar30:root@mern-cluster.8zsq2.mongodb.net/?retryWrites=true&w=majority&appName=MERN-cluster/todo"
+  "mongodb-url"
 );
 
 mongoose.connection.on("error", (error) => {
